@@ -1,2 +1,5 @@
 # JS-image-files
-JS code for images
+
+var img = new Image();
+img.src = 'images/pilot.jpg';
+document.body.appendChild(img);
